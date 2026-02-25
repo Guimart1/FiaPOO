@@ -5,5 +5,5 @@ public class Carro {
     public String placa;
     public String cor;
     public String marca;
-    public int ano_modelo;
+    public int anoModelo;
 }

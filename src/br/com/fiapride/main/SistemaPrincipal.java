@@ -20,7 +20,7 @@ public class SistemaPrincipal {
         Carro carro1 = new Carro();
         carro1.modelo = "Onix";
         carro1.cor = "Preto";
-        carro1.ano_modelo = 2023;
+        carro1.anoModelo = 2023;
         carro1.marca = "Chevrolet";
         carro1.placa = "ENN2981";
 
@@ -28,7 +28,7 @@ public class SistemaPrincipal {
         Carro carro2 = new Carro();
         carro2.modelo = "Cronos";
         carro2.cor = "Preto";
-        carro2.ano_modelo = 2025;
+        carro2.anoModelo = 2025;
         carro2.marca = "Fiat";
         carro2.placa = "FHO1133";
 
@@ -36,8 +36,8 @@ public class SistemaPrincipal {
         System.out.println("--- Sistema FiapRide ---");
         System.out.println("Passageiro: " + passageiro1.nome + " | Saldo: R$" + passageiro1.saldo);
 
-        System.out.println("Carro: " + carro1.marca + " " + carro1.modelo + " | Cor: " + carro1.cor + " | Ano do modelo: " + carro1.ano_modelo + " | Placa: " + carro1.placa + "\n");
+        System.out.println("Carro: " + carro1.marca + " " + carro1.modelo + " | Cor: " + carro1.cor + " | Ano do modelo: " + carro1.anoModelo + " | Placa: " + carro1.placa + "\n");
         System.out.println("Passageiro: " + passageiro2.nome + " | Saldo: R$" + passageiro2.saldo);
-        System.out.println("Carro: " + carro2.marca + " " + carro2.modelo + " | Cor: " + carro2.cor + " | Ano do modelo: " + carro2.ano_modelo + " | Placa: " + carro2.placa);
+        System.out.println("Carro: " + carro2.marca + " " + carro2.modelo + " | Cor: " + carro2.cor + " | Ano do modelo: " + carro2.anoModelo + " | Placa: " + carro2.placa);
     }
 }
